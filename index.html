@@ -8,7 +8,31 @@
     <title>CountDown Clock</title>
   </head>
   <body>
-    <h1>This Works</h1>
+    <nav>
+      <ul>
+        <li><button class="timer__button" data-time="20">20 SECS</button></li>
+        <li><button class="timer__button" data-time="300">WORK 5</button></li>
+        <li><button class="timer__button" data-time="900">QUICK 15</button></li>
+        <li>
+          <button class="timer__button" data-time="1200">SNACK 20</button>
+        </li>
+        <li>
+          <button class="timer__button" data-time="3600">LUNCH BREAK</button>
+        </li>
+        <li>
+          <form name="customForm" id="custom">
+            <input type="text" placeholder="Enter Minutes" name="minutes" />
+          </form>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h1 class="time__left"></h1>
+        <p class="time__end"></p>
+      </div>
+    </main>
 
     <script src="script.js"></script>
   </body>
